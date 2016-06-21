@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    <link rel="stylesheet"  type="text/css"  href="main.css"/>
+    <script type="text/javascript" src="js/jquery_3.0.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle.js"></script>
+    
+    <script type="text/javascript">
+    
+        jQuery(document).ready(function($){
+            $('#photo').cycle({
+                fx: 'fade', //特效
+                speed: 2000,
+                timeout:3200,
+                random: 1
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="box">
+    <div id="top">
+        <div id="logo">
+            <img src="img/loogo.png">
+            </div>
+<ul id="button">
+   
+<li><a href="index.html">Awards</a></li>
+ <li><a href="#">Filmography</a></li>
+      <li><a href="#">Album</a></li>
+ <li><a href="#">About</a></li>
+    </ul>
+    </div>
+    
+    <div id="photo">
+        <img src="img/01.jpg"/>
+        <img src="img/02.jpg"/>
+        <img src="img/03.jpg"/>
+        
+    </div>
+        </div>
+</body>
+</html>
