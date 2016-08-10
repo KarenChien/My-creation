@@ -1,7 +1,13 @@
 .bus{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
 }
+
+.map{
+    height: 40px;
+    width: 40px;
+}
+
 .road{
 display: block;
   margin: auto;
