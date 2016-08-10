@@ -1,6 +1,13 @@
-img{
+.bus{
     height: 30px;
     width: 30px;
+}
+
+.road{
+    display:block;
+  margin: auto;
+    width: 50%;
+    height: 50%;
 }
 
 .navbar-default {
