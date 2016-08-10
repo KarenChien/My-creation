@@ -2,12 +2,13 @@
     height: 30px;
     width: 30px;
 }
-
+@media (max-width: 768px) {
 .road{
-    display:block;
+display: block;
   margin: auto;
-    width: 50%;
-    height: 50%;
+    width: auto;
+    height: auto;
+}
 }
 
 .navbar-default {
