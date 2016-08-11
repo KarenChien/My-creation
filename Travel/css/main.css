@@ -1,3 +1,10 @@
+.panel-default{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.panel-heading{
+    background-color:bisque;
+}
 .bus{
     height: 35px;
     width: 35px;
