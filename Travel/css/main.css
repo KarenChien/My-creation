@@ -1,10 +1,16 @@
-.panel-default{
+.panel-my{
     margin-left: 1%;
     margin-right: 1%;
+    
 }
 .panel-heading{
-    background-color:bisque;
+    background-color:#7dc49a;
 }
+
+.panel-heading h4{
+    color:#fff;
+}
+
 .bus{
     height: 35px;
     width: 35px;
