@@ -10,13 +10,17 @@
 .panel-heading h4{
     color:#fff;
 }
+
+.table-my tbody tr:nth-child(odd) {
+  background-color:#ccebd8;
+}
 .bus{
     height: 35px;
     width: 35px;
 }
 
 .map{
-    height: 35px;
+    height: 35px;;
     width: 35px;
 }
 
