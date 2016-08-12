@@ -12,7 +12,7 @@
 }
 
 .table-my tbody tr:nth-child(odd) {
-  background-color:#ccebd8;
+  background-color:rgb(211, 237, 221);
 }
 .bus{
     height: 35px;
