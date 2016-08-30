@@ -45,7 +45,7 @@ display: block;
     
 }
 .jumbotron{
-  background:url(../img/jp.jpg) no-repeat center center;
+  background:url(../img/osaka01.jpg) no-repeat center center;
   background-size: cover;
   height: 400px;
   padding: 0;
@@ -67,7 +67,18 @@ display: block;
   min-height: 210px;
   text-align: center;
 }
-
+.navbar{
+    background-color: #e24242;
+}
+.navbar-brand{
+    color:aliceblue;
+}
+.navbar-nav li a{
+    color:aliceblue;
+}
+.icon-bar{
+    background-color: aliceblue;
+}
 .box img {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
