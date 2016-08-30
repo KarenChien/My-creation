@@ -28,14 +28,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>         
                 </button>
-                <a class="navbar-brand" href="index.html">Japan Travel</a>
+                <a class="navbar-brand" href="#">Japan Travel</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
                     
-                    <li><a href="#">地圖</a></li>
+                    <li><a href="#">票券</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">行程<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
@@ -50,75 +50,104 @@
             </div>
         </div>
     </nav>
-    <div class="panel panel-my">
-        <div class="panel-heading">
-            <h4>105.09.14 | DAY 2</h4>
-        </div>
-    
-            <div class="table-responsive">
-                <table class="table table-my">
-                    <tr>
-                        <td>時間</td>
-                        <td>行程</td>
-                    </tr>
-                    <tr>
-                        <td>07:00-08:00</td>
-                        <td>07:30晨喚</td>
-                    </tr>
-                    <tr>
-                        <td>08:00-09:00</td>
-                        <td>出發USJ
-                            <img class="bus" src="img/bus.png" style="cursor:hand; cursor:pointer;" data-toggle="modal" data-target="#bus04">
-
-                            <!-- Modal -->
-                            <div class="modal fade" id="bus04" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                            <h3 class="modal-title" id="myModalLabel">日本橋 → USJ</h3>
-                                        </div>
-                                        <div class="modal-body"><img class="road" src="img/bus04.png"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>09:00-19:00</td>
-                        <td>狂玩USJ</td>
-                    </tr>
-                    <tr>
-                        <td>19:00-20:00</td>
-                        <td>回飯店吃吃喝喝
-                            <img class="bus" src="img/bus.png" style="cursor:hand; cursor:pointer;" data-toggle="modal" data-target="#bus05">
-
-                            <!-- Modal -->
-                            <div class="modal fade" id="bus05" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                            <h3 class="modal-title" id="myModalLabel">USJ → 日本橋</h3>
-                                        </div>
-                                        <div class="modal-body"><img class="road" src="img/bus05.png"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>20:00-22:00</td>
-                        <td>吃松屋然後買早餐</td>
-                    </tr>
-                </table>
+<!--
+     <div class="container">
+        <div class="row">
+       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Wrapper for slides
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/jp.jpg" alt="...">
+    </div>
+    <div class="item">
+      <img src="img/namewee.jpg" alt="...">
+    </div>
+  </div>
+    </div>
+         </div>
+    </div>
+-->
+   
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 jumbo-text"> 
+                    <h1 class="tagline">票券購買</h1>
+                </div>
             </div>
-     </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 panel-item"> 
+                <div class="box" style="cursor:hand; cursor:pointer;" data-toggle="modal" data-target="#ticket01">
+                    <div class="box-heading">
+                        <img src="img/rokkosan.png">
+                    </div>
+                    <div class="box-body">
+                        <h3>六甲山交通券<br>&yen;1000</h3>
+                    </div>
+                    
+                    <!-- Modal -->
+                            <div class="modal fade" id="ticket01" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                            <h3 class="modal-title" id="myModalLabel">販售場所</h3>
+                                        </div>
+                                        <div class="modal-body"><p>關西旅遊中心</p><img class="road" src="img/traveldesk.jpg"></div>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+
+                            
+            <div class="col-sm-4 panel-item"> 
+                <div class="box" style="cursor:hand; cursor:pointer;" data-toggle="modal" data-target="#ticket02">
+                    <div class="box-heading">
+                        <img src="img/icoca.jpg">
+                    </div>
+                    <div class="box-body">
+                        <h3>儲值ICOCA<br>&yen;8000</h3>
+                    </div>
+                    
+                    <!-- Modal -->
+                            <div class="modal fade" id="ticket02" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                            <h3 class="modal-title" id="myModalLabel">販售場所</h3>
+                                        </div>
+                                        <div class="modal-body"><p>JR關西機場站</p><img class="road" src="img/icoca_buy01.jpg"></div>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+            <div class="col-sm-4 panel-item"> 
+                <div class="box">
+                    <div class="box-heading">
+                        <img src="img/kobe.jpg">
+                    </div>
+                    <div class="box-body">
+                        <h3>KOBE</h3>
+                        <p>自古以來神戶作為國際貿易港口得以繁榮發展，同時由於受到了外國文化的巨大影響，即使在日本國內，其獨具異國特色的街道也聞名遐邇。此外，還有自然風光秀美的六甲山，以及自古以來因溫泉街而繁華、並散發著日本古色古香氣息的有馬等觀光景點，是備受遊客歡迎的觀光城市。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <!-- jQuery (Bootstrap 所有外掛均需要使用) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- 依需要參考已編譯外掛版本（如下），或各自獨立的外掛版本 -->
     <script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery_3.0.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle.js"></script>
     
     
   </body>

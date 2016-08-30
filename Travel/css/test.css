@@ -1,0 +1,51 @@
+.container{
+    padding:0 5px;
+    width:100%;
+    max-width:400px;
+    margin: 0 auto;
+}
+
+.container-fluid{
+    padding:0 5px;
+    margin:0 auto; 
+}
+
+.col{
+    height:50px;
+    width:33.3333%;
+    float:left;
+    padding: 0 5px;
+    box-sizing: border-box;
+    background: #5da7e2;
+    text-align: center;
+    color: #ededed;
+    font-size: 16px;
+    line-height: 50px;
+    font-family: "Open Sans";
+}
+
+.row{
+
+    background: #87c470;
+    margin: 0 -5px;
+}
+
+.row:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.box{
+    background: #b9d0e3;
+    height: 50px;
+}
+
+.el{
+    height: 50px;
+    background: #eee;
+}
+
+.space{
+    height:50px;
+}
