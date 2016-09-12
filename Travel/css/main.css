@@ -20,8 +20,14 @@
 }
 
 .map{
-    height: 35px;;
+    height: 35px;
     width: 35px;
+}
+
+.next{
+     height: 35px;
+    width: 35px;
+    align: right;
 }
 
 .road{
