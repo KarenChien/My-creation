@@ -1,0 +1,167 @@
+/* Website template by freewebsitetemplates.com */
+
+/*------------------------- mystyle ------------------------*/
+.head {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    text-align: center;
+}
+.nav li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ul.nav li a:hover{
+    background-color: rgba(0, 0, 0, 0.40);
+}
+.nav li a{
+    text-decoration:none;
+	color:#fff;
+	font-size: 28px;
+	font-family: arial;
+	text-transform:uppercase;
+	line-height:36px;
+	outline:none;
+}
+nav{
+    text-align: center;
+}
+ul.navbar-nav{
+     float: none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+.icon-bar{
+    background-color:#fff;
+}
+.nav li.selected{
+	background-color: rgba(0, 0, 0, 0.65);
+}
+
+.box{
+     color: #433955;
+  margin-bottom: 20px;
+  min-height: 210px;
+  text-align: center;
+    font-family: times new roman;
+	font-size:30px;
+	color:#fff;
+}
+
+.box-body{
+	font-family: times new roman;
+	font-size:20px;
+	color:#fff;
+}
+
+.box-heading{
+    cursor:hand; 
+    cursor:pointer;
+}
+.cont{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2%;
+}
+
+.boxs{
+    margin: 2%;
+}
+
+.boxs div h1{
+    font-family:times new roman;
+    font-style: oblique;
+    color: #f8ff53;
+}
+
+.boxs div h3{
+    color:#fff;
+}
+
+.boxs div p{
+    color:#fff;
+}
+
+.boxs div a{
+    color:#ffee23;
+}
+
+.icon{
+    width: 15%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.panelaside{
+    font-family:times new roman;
+    background-color:rgb(255, 255, 255);
+    font-size:18px;
+	text-transform:uppercase;
+	text-align:center;
+    box-shadow:3px 3px 12px 10px rgba(0%, 0%, 0%, 0.72);
+}
+
+.panelaside input{
+    background-color: #dddddd;
+}
+
+.panelaside button{
+    background-color: rgb(90, 25, 25);
+    color: #fff;
+}
+
+.panelaside div p{
+    color:#272727;
+}
+
+.panelaside a#twitter{
+	background:url(../img/icons.png) no-repeat 0 -97px;
+	width:62px;
+	height:39px;
+	text-indent: -99999px;
+	display:block;
+	margin: 0 0 0 50px;
+	outline:none;
+}
+.panelaside a#facebook{
+	background:url(../img/facebook.png);
+	outline:none;
+}
+.quotes{
+     background-color:rgb(90, 25, 25);
+    font-size:14px;
+	text-transform:uppercase;
+	text-align:center;
+    box-shadow:3px 3px 12px 10px rgba(0%, 0%, 0%, 0.72);
+}
+
+.quotes div h3{
+    font-family:times new roman;
+    color:rgb(255, 255, 255);
+}
+
+.quotes div span{
+    font-family:times new roman;
+    color:#21e693;
+}
+.quotes div p{
+    color:#ffffff;
+}
+
+footer p{
+	font-family: helvetica;
+	font-size:13px;
+	color:#fff;
+	clear:both;
+}
+
+@media (max-width: 768px) {
+    footer p{
+    text-align: center;
+  }
+}
+/*------------------------- Layout styles ------------------------*/
+body{
+margin: 0px;	background:url(../img/wood.jpg) no-repeat center center;
+    background-size: cover;
+}
